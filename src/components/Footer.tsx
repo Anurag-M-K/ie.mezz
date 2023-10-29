@@ -1,6 +1,7 @@
+'use client'
 import React from 'react';
 import { FaInstagram } from "react-icons/fa";
-
+import Image from 'next/image'; // Import the Image component from 'next/image'
 
 function Footer() {
   return (
@@ -8,7 +9,7 @@ function Footer() {
       <div className="container mx-auto py-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div className='flex justify-center items-center'>
-            <img src="your-logo.png" alt="Logo" className="w-16 h-16 mb-2" />
+            <img src="/images/logo.png" alt="Logo" className="w-16 h-16 mb-2" />
             <p className="text-sm">ie mezz</p>
           </div>
           <div className='flex justify-center items-center'>
