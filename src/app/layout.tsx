@@ -30,14 +30,16 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body  className={inter.className}>
+        
+
         {showLogo ? (
           <div className="flex justify-center items-center bg-black">
             <img
               src="/images/logo.png"
               className="w-[50%] h-[50%] bg-black rounded-full"
               alt="Logo"
-            />
+              />
           </div>
         ) : (
           <div
@@ -46,12 +48,11 @@ export default function RootLayout({
               display: showLogo ? 'none' : 'block',
             }}
             className="flex flex-col min-h-screen" // Use Tailwind classes to set minimum height
-          >
+            >
             <Navbar />
             <div className="flex-grow">{children}</div> {/* Use flex-grow to push content to fill remaining space */}
           </div>
         )}
-        <footer className="bg-gray-300 text-center py-3"/>
          
       </body>
     </html>

@@ -29,7 +29,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="text-center text-gray-400 mt-4">
+        <div className="text-center text-gray-400 ">
           &copy; {new Date().getFullYear()} ie mezz. All rights reserved.
         </div>
       </div>
