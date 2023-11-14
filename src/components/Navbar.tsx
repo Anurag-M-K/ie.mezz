@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { AiOutlineMenu } from "react-icons/ai";
@@ -13,7 +14,7 @@ function Navbar() {
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white font-bold text-lg">
-          <Image src="/images/logo.png" width={0} height={0} className="w-16 h-16" alt="" />
+          <img src="/images/logo.png" className="w-16 h-16" alt="" />
         </div>
         <div className="hidden md:flex space-x-4">
           <a href="#" className="text-white">
