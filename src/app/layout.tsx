@@ -34,10 +34,10 @@ export default function RootLayout({
         
 
         {showLogo ? (
-          <div className="flex justify-center items-center bg-black">
+          <div className="flex justify-center h-screen items-center p-10 bg-black">
             <img
               src="/images/logo.png"
-              className="w-screen h-screen  bg-black rounded-full"
+              className="w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-[600px] lg-[h-700px] xl:w-[900px] xl:h-[900px]  bg-black rounded-full"
               alt="Logo"
               />
           </div>
