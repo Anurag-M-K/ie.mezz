@@ -37,7 +37,7 @@ export default function RootLayout({
           <div className="flex justify-center items-center bg-black">
             <img
               src="/images/logo.png"
-              className="w-[50%] h-[50%] bg-black rounded-full"
+              className="w-screen h-screen  bg-black rounded-full"
               alt="Logo"
               />
           </div>
