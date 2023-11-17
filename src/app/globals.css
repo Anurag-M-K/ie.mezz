@@ -42,3 +42,81 @@
 #content-container {
   display: none;
 }
+
+
+.bike { max-width:400px; margin:0 auto; }
+.bike-tyre {
+  transform:rotate(0deg);
+  transform-origin: 13.4% 79.6%;
+ 
+}
+.bike-tyre.bike-tyre-back {
+  transform-origin: 68% 79.6%;
+}
+.line1 { 
+  transform-origin: 22.6% 90.6%;
+}
+.line2 { 
+  transform-origin: 22.6% 88.6%;
+}
+.line3 { 
+  transform-origin: 88.6% 82.4%;
+}
+.line4 { 
+  transform-origin: 81.8% 68.2%;
+}
+.line5 { 
+  transform-origin: 81.8% 66.2%;
+}
+.line6 { 
+  transform-origin: 93% 44.2%;
+  margin-left:45px;
+}
+.line7 { 
+  transform-origin: 94.6% 42.4%;
+  margin-left:45px;
+}
+.jerk {
+  transform:translateX(0);
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes linejerk {
+  20% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(24px);
+  }
+  40% {
+    transform: translateX(18px);
+  }
+  50% {
+    transform: translateX(22px);
+  }
+  60% {
+    transform: translateX(28px);
+  }
+  70% {
+    transform: translateX(18px);
+  }
+  80% {
+    transform: translateX(24px);
+  }
+  0% {
+    transform: translateX(0);
+  }
+}
+.bike-tyre {
+  animation: rotating 350ms linear infinite;
+}
+.jerk {
+  animation: linejerk 450ms linear infinite;
+}
