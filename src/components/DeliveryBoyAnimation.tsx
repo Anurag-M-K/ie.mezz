@@ -7,8 +7,8 @@ import { RiSecurePaymentFill } from "react-icons/ri";
 function DeliveryBoyAnimation() {
 	return (
 		<div className="grid grid-cols-1 sm:grid-cols-2  ">
-			<div className="flex flex-col justify-center  p-10">
-				<p className="text-sm ">Easy way to make an order</p><br />
+			<div className="flex flex-col  px-5 sm:p-28">
+				<p className="text-sm text-">Easy way to make an order</p><br />
 				<h1 className="text-red-700 font-bold font-mono uppercase text-4xl my-2">Hungry? <span className="text-3xl text-blue-950 font-medium">Just Wait</span></h1>
 
 				<h2 className="text-3xl text-blue-950 font-medium my-2">Food At <span className="text-red-700  font-bold font-mono uppercase text-4xl">Your door</span></h2>
