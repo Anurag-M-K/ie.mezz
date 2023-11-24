@@ -129,7 +129,7 @@
 .slide-track {
   display: flex;
   width: calc(250px * 10); /* Adjust the number based on the total number of slides */
-  animation: scroll var(--animation-duration) linear infinite;
+  animation: scroll 40s linear infinite;
   &:hover {
     animation-play-state: paused;
   }
@@ -140,7 +140,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * var(--slides-length)));
+    transform: translateX(calc(-250px * 5));
   }
 }
 

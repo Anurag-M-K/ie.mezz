@@ -8,7 +8,7 @@ function Carousel() {
 
   return (
     <div className='slider '>
-      <div className='slide-track' style={{ '--animation-duration': `${(250 * slides.length) / 50}s`, '--slides-length': slides.length }}>
+      <div className='slide-track' >
         {slides.map((slide, index) => (
           <div key={index} className='slide'>
             <img className='img-carousal' src={`images/${slide}`} alt='' />

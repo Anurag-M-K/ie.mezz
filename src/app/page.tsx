@@ -2,13 +2,10 @@ import BreLunDinn from "@/components/BreLunDinn";
 import DeliveryBoyAnimation from "@/components/DeliveryBoyAnimation";
 import Footer from "@/components/Footer";
 import Introduction from "@/components/Introduction";
-import Navbar from "@/components/Navbar";
-import OurMission from "@/components/OurMission";
-import OurVision from "@/components/WhyChoseUs";
-import Rates from "@/components/Rates";
 import Image from "next/image";
 import HowItWorks from "@/components/HowItWorks";
 import Foods from "@/components/Foods";
+import WhyChoseUs from "@/components/WhyChoseUs";
 
 export default function Home() {
   return (
@@ -17,7 +14,7 @@ export default function Home() {
       <Foods/>
       <Introduction/>
       <HowItWorks/>
-      <OurVision />
+      <WhyChoseUs />
       <Footer />
     </main>
   );
