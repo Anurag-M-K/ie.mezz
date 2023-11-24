@@ -11,22 +11,22 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-red-300 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white font-bold text-lg">
-          <img src="/images/logo.png" className="w-16 h-16" alt="" />
+          <img src="/images/logo.png" className="w-24  h-24 rounded-full" alt="" />
         </div>
-        <div className="hidden md:flex space-x-4">
-          <a href="#" className="text-white">
+        <div className="hidden md:flex space-x-4 text-blue-900">
+          <a href="#" className="text-blue-900  hover:bg-blue-900 rounded-full transition duration-300 hover:text-white px-2 py-1">
             Home
           </a>
-          <a href="#" className="text-white">
-            About
+          <a href="#" className="text-blue-900 hover:bg-blue-900 rounded-full transition duration-300 hover:text-white px-2 py-1">
+            About us
           </a>
-          <a href="#" className="text-white">
+          <a href="#" className="text-blue-900 hover:bg-blue-900 rounded-full transition duration-300 hover:text-white px-2 py-1">
             Services
           </a>
-          <a href="#" className="text-white">
+          <a href="#" className="text-blue-900 hover:bg-blue-900 rounded-full transition duration-300 hover:text-white px-2 py-1">
             Contact
           </a>
         </div>

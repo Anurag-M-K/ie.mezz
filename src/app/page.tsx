@@ -4,19 +4,20 @@ import Footer from "@/components/Footer";
 import Introduction from "@/components/Introduction";
 import Navbar from "@/components/Navbar";
 import OurMission from "@/components/OurMission";
-import OurVision from "@/components/OurVision";
+import OurVision from "@/components/WhyChoseUs";
 import Rates from "@/components/Rates";
 import Image from "next/image";
+import HowItWorks from "@/components/HowItWorks";
+import Foods from "@/components/Foods";
 
 export default function Home() {
   return (
     <main>
       <DeliveryBoyAnimation/>
+      <Foods/>
       <Introduction/>
-      <BreLunDinn />
-      <Rates />
+      <HowItWorks/>
       <OurVision />
-      <OurMission />
       <Footer />
     </main>
   );
