@@ -2,28 +2,46 @@
 import React from 'react';
 import { FaInstagram } from "react-icons/fa";
 import Image from 'next/image'; // Import the Image component from 'next/image'
+import { MdEmail } from "react-icons/md";
+import { FaPhoneVolume } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white">
+    <footer className="bg-gray-700 text-white py-10 texy-gray-500">
       <div className="container mx-auto py-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div className='flex justify-center items-center'>
-            <img src="/images/logo.png" alt="Logo" className="w-16 h-16 mb-2" />
-            <p className="text-sm">ie mezz</p>
+            <img src="/images/logo.png" alt="Logo" className="w-36 h-36 mb-2" />
+            <div className='flex flex-col  items-start'>
+<div>
+
+              <h2 className="text-2xl font-serif ">Enjoy your</h2><br />
+              <h2 className='text-2xl font-serif ++ text-red-500'>Homely food</h2>
+</div>
+              <span className='flex flex-row justify-center items-center mt-5'>
+
+                <MdEmail className="text-red-500" /><p className="text-gray-400 text-sm">anuragmk@gmail.com</p>
+              </span> 
+              <span className='flex flex-row justify-center items-center'>
+
+                <FaPhoneVolume className="text-red-500" /><p className="text-gray-400 text-sm">+919535363102</p>
+              </span>
+             
+            </div>
           </div>
           <div className='flex justify-center items-center'>
             <ul>
               <li><a href="#" className="text-gray-100  hover:text-white">Links</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">About</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Services</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Contact</a></li>
+              <li><a href="#" className="text-gray-400 text-sm hover:text-white">Home</a></li>
+              <li><a href="#" className="text-gray-400 text-sm hover:text-white">About</a></li>
+              <li><a href="#" className="text-gray-400 text-sm hover:text-white">Services</a></li>
+              <li><a href="#" className="text-gray-400 text-sm hover:text-white">Contact</a></li>
             </ul>
           </div>
           <div className='flex justify-center items-center'>
             <div className="flex flex-col space-x-2">
               <a href="#" className="text-gray-400 hover:text-white"><i className="fab fa-twitter">follow us</i></a>
-              <a href="https://instagram.com/ie.mezz?igshid=OGQ5ZDc2ODk2ZA==" className="text-gray-400 hover:text-white"><i className="fab fa-facebook"><FaInstagram/></i></a>
+              <a href="https://instagram.com/ie.mezz?igshid=OGQ5ZDc2ODk2ZA==" className="text-gray-400 hover:text-white"><i className="fab fa-facebook"><FaInstagram /></i></a>
               <a href="#" className="text-gray-400 hover:text-white"><i className="fab fa-linkedin"></i></a>
               <a href="#" className="text-gray-400 hover:text-white"><i className="fab fa-instagram"></i></a>
             </div>
