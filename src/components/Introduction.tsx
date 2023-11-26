@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 function Introduction() {
   return (
-    <div className=" p-8 grid sm:grid-cols-2 grid-cols-1 rounded-md shadow-md text-center">
+    <div id='about' className="my-20 border-t  p-8 grid sm:grid-cols-2 grid-cols-1 rounded-md shadow-md text-center">
       <div className='flex justify-center items-center flex-col  p-2 '>
       <h1 className=" mb-4 font-title font-bold  text-4xl">What is ie.mezz?</h1>
       <p className='text-black font-medium'>"We are  providing whole day packages Breakfast, Lunch, Dinner for monthly base"</p>

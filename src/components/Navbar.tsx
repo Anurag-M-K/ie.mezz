@@ -11,24 +11,24 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-red-300 p-4">
+    <nav id='home' className="bg-red-300 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white font-bold text-lg">
           <img src="/images/logo.png" className="w-24  bg-black h-24 rounded-full" alt="" />
         </div>
         <div className="hidden md:flex space-x-4 text-blue-900">
-          <a href="#" className="text-blue-900  hover:bg-blue-900 rounded-full transition duration-300 hover:text-white px-2 py-1">
+          <a onClick={() => document.getElementById("home")?.scrollIntoView({ behavior: 'smooth', block: "start" })} className="cursor-pointer text-blue-900  hover:bg-blue-900 rounded-full transition duration-300 hover:text-white px-2 py-1">
             Home
           </a>
-          <a href="#" className="text-blue-900 hover:bg-blue-900 rounded-full transition duration-300 hover:text-white px-2 py-1">
+          <a onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: 'smooth', block: "start" })} className="cursor-pointer text-blue-900 hover:bg-blue-900 rounded-full transition duration-300 hover:text-white px-2 py-1">
             About us
           </a>
-          <a href="#" className="text-blue-900 hover:bg-blue-900 rounded-full transition duration-300 hover:text-white px-2 py-1">
-            Services
+          <a onClick={() => document.getElementById("work")?.scrollIntoView({ behavior: 'smooth', block: "start" })} className="cursor-pointer text-blue-900 hover:bg-blue-900 rounded-full transition duration-300 hover:text-white px-2 py-1">
+            Our work
           </a>
-          <a href="#" className="text-blue-900 hover:bg-blue-900 rounded-full transition duration-300 hover:text-white px-2 py-1">
+          {/* <a onClick={() => document.getElementById("schedule")?.scrollIntoView({ behavior: 'smooth', block: "start" })} className="cursor-pointer text-blue-900 hover:bg-blue-900 rounded-full transition duration-300 hover:text-white px-2 py-1">
             Contact
-          </a>
+          </a> */}
         </div>
         <div className="md:hidden">
           {/* Mobile menu icon */}

@@ -47,9 +47,9 @@ slideRef?.current?.classList.add('fade-anim')
 
         <img width={200} height={200}  src={breakFast[currentIndex]} className='rounded-md hover:scale-95 duration-300 transition cursor-pointer' alt="" />
       </div>
-<div className='absolute top-1/2 transform translate-y-1/2 py-2  w-full flex justify-between items-center'>
-{/* <button onClick={handleOnPrevClick}>Previous</button>
-<button onClick={handleOnNextClick}>Next </button> */}
+<div className='absolute transform translate-y-1/2  w-full flex justify-between '>
+<button onClick={handleOnPrevClick}>👈</button>
+<button onClick={handleOnNextClick}>👉 </button>
 </div>
 <h1 className='text-center font-serif font-bold mt-2'>{title}</h1>
     </div>
