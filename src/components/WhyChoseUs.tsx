@@ -20,14 +20,15 @@ function WhyChoseUs() {
       <RiEBike2Fill  className="text-red-500  w-[100px] h-[100px]" />
         {/* <img src="images/whychoseus2.webp" className='w-[150] h-[100px]' alt="img2" /> */}
         <h3 className='font-bold text-xl mb-3'>Free and on time delivery</h3>
-        <p className='text-gray-800  text-sm'>With our wide Menu and Affordable prices, you can personalize your order.</p>
+        <p className='text-gray-800  text-sm'>Delivery services right to your door, free of charge. Pick the time and location for your food delivery.</p>
 
       </div>
       <div className='flex m-14 sm:m-28 items-center flex-col'>
         {/* <img src="images/whychoseus3.jpg"  className='w-[150] h-[100px]' alt="" /> */}
         <MdHealthAndSafety  className="text-red-500  w-[100px] h-[100px]" />
         <h3 className='font-bold text-xl mb-3'>Safe and hygienic packaging</h3>
-        <p className='text-gray-800 text-sm'>With our wide Menu and Affordable prices, you can personalize your order.</p>
+        <p className='text-gray-800 text-sm'>
+Every food item comes with careful packaging to preserve its deliciousness.</p>
 
       </div>
       </div>
