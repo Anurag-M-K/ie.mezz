@@ -7,7 +7,7 @@ import { FaPhoneVolume } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="bg-gray-700 text-white py-10 texy-gray-500">
+    <footer className="bg-gray-800 text-white py-10 texy-gray-500">
       <div className="container mx-auto py-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div className='flex justify-center items-center'>

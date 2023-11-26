@@ -183,3 +183,16 @@
   top: 0;
   transform: rotate(180deg);
 }
+
+.fade-anim img {
+  animation:fadeAnim 0.5s
+  ease-out;
+}
+@keframes fadeAnim {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
