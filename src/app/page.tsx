@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main>
       <DeliveryBoyAnimation/>
-      <FAQ/>
+<FAQ/>
         <h1 className="text-center font-title font-bold  text-4xl mt-5">Our Items</h1>
       <div className="p-10 grid grid-cols-1 sm:grid-cols-3">
 <div className="flex justify-center items-center"> 

@@ -1,11 +1,10 @@
-
 'use client';
 import { faq } from '@/utils/faqData';
 import { Accordion } from 'flowbite-react';
 
 function FAQ() {
   return (
-    <div className='my-5 lg:mx-36'>
+    <div className='my-5'>
       <h1 className='text-center text-3xl font-bold my-3'>FAQs</h1>
       <Accordion collapseAll>
         {faq?.map((faqs) => (
