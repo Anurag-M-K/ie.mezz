@@ -4,7 +4,7 @@ import { Accordion } from 'flowbite-react';
 
 function FAQ() {
   return (
-    <div className='my-5'>
+    <div className='my-5 lg:px-44'>
       <h1 className='text-center text-3xl font-bold my-3'>FAQs</h1>
       <Accordion collapseAll>
         {faq?.map((faqs) => (

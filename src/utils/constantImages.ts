@@ -21,4 +21,5 @@ export const dinner = [
     'images/dinner.jpg',
     'images/dinner2.jpg',
     'images/dinner3.jpg',
+    'images/dinner3.jpg',
 ]
