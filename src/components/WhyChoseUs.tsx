@@ -7,7 +7,7 @@ import { FaPersonCircleCheck } from "react-icons/fa6";
 function WhyChoseUs() {
   return (
     <div className='text-center bg-yellow-100 p-3 sm:p-8'>
-      <h1 className='font-title font-bold  text-4xl mt-11 '><span className='text-red-500'>Why</span> Choose Us ? </h1>
+      <h1 className=' font-bold  text-3xl mt-11 '><span className='text-red-500'>Why</span> Choose Us ? </h1>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3'>
 
       <div className='flex m-14 sm:m-28  justify-center items-center flex-col'>

@@ -16,7 +16,7 @@ export default function Home() {
     <main>
       <DeliveryBoyAnimation/>
 <FAQ/>
-        <h1 className="text-center font-title font-bold  text-4xl mt-5">Our Items</h1>
+        <h1 className="text-center text-3xl font-bold my-3">Our Items</h1>
       <div className="p-10 grid grid-cols-1 sm:grid-cols-3">
 <div className="flex justify-center items-center"> 
       <Slider title={"BreakFast"} breakFast={breakFast}/>

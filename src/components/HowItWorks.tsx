@@ -5,7 +5,7 @@ import { MdGppGood } from "react-icons/md";
 function HowItWorks() {
     return (
         <div id='work' className='p-10 my-20'>
-            <h1 className='text-center my-3 font-title text-4xl font-bold '>How we works</h1>
+            <h1 className='text-center text-3xl font-bold my-3'>How we works</h1>
             <p className='text-center mt-5 mb-10 text-sm  text-gray-600'>We prioritize product excellence, ensuring unwavering commitment to quality and safety, with a dedicated focus on maintaining Halal standards, putting control firmly in your hands</p>
             <div className='grid sm:grid-cols-3'>
 
