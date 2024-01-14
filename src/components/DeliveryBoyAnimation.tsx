@@ -23,10 +23,10 @@ function DeliveryBoyAnimation() {
 
 				<h2 className="text-2xl sm:text-5xl text-blue-950 font-medium my-2">Food At <span className="text-red-700  font-bold font-mono uppercase text-4xl sm:text-6xl">Your door</span></h2>
 		
-				<h1 className='text-yellow-50 sm:text-3xl'>Homely Food</h1>
+				{/* <h1 className='text-yellow-50 sm:text-3xl border '>Homely Food</h1> */}
 				<div className="my-2 flex flex-col sm:flex-row ">
-					<button onClick={handleWhatsAppClick} className="w-full md:p-2 md:text-xl bg-red-700 my-2 sm:my-0 hover:scale-90 ease-in-out  transition duration-300  text-white rounded p-1 text-sm px-2 py-1">order now</button>
-					<button className=" md:p-2 md:text-xl w-full border hover:scale-90 transition  duration-300 sm:ms-10  text-red-700 border-red-700 rounded p-1 text-sm px-2 py-1">see all foods</button>
+					<button onClick={handleWhatsAppClick} className="w-full md:p-2 md:text-xl bg-red-700 my-2 sm:my-0 hover:scale-90 ease-in-out  transition duration-300 py-3 text-white rounded-full p-1 text-xl px-2 ">order now</button>
+					<button className=" md:p-2 md:text-xl w-full border hover:scale-90 transition  duration-300 sm:ms-10  text-red-700 border-red-700 rounded-full p-1 text-xl  px-2 py-3">see all foods</button>
 				</div>
 				<div className='flex'>
 
