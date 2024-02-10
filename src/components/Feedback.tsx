@@ -60,7 +60,7 @@ const handleSubmit = async (e:any) => {
         </div>
         <Textarea required id="feedback" value={feedback} onChange={(e) => setFeedback(e.target.value)} />
       </div>
-      <div className='flex justify-center w-full'>
+      <div className='flex justify-center my-5 w-full'>
         <Button type='submit' className='text-center w-full mx-5 rounded-md my-3'  color='failure'>{submit ? <Spinner/> : "Submit"}</Button>
       </div>
       </form>
