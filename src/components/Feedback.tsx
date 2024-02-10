@@ -4,13 +4,14 @@
 import { db } from '@/config/firebase.config';
 import firebase from 'firebase/app';
 import { addDoc, collection, serverTimestamp } from 'firebase/firestore';
-import { Button, Label, TextInput, Textarea, Toast } from 'flowbite-react';
+import { Button, Label, Spinner, TextInput, Textarea, Toast } from 'flowbite-react';
 import { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 
 function Feedback() {
 const  [phone,setPhone] = useState('');
 const [feedback , setFeedback] = useState('');
+const [submit, setSubmit] = useState(false)
 
 
 async function addDataToFireStore(phone: string, feedback:string) {
@@ -25,7 +26,7 @@ async function addDataToFireStore(phone: string, feedback:string) {
 
 const handleSubmit = async (e:any) => {
   e.preventDefault()
-  console.log('handleSubmit')
+  setSubmit(true)
   // const feedbackCollection = firestore().collection('feedback')
   try {
     await addDataToFireStore(phone,feedback);
@@ -34,7 +35,9 @@ const handleSubmit = async (e:any) => {
     })    
     setPhone('')
     setFeedback('')
+    setSubmit(false)
   } catch (error) {
+    setSubmit(false)
     console.log(error)
   }
 }
@@ -58,7 +61,7 @@ const handleSubmit = async (e:any) => {
         <Textarea required id="feedback" value={feedback} onChange={(e) => setFeedback(e.target.value)} />
       </div>
       <div className='flex justify-center w-full'>
-        <Button type='submit' className='text-center w-full mx-5 rounded-md my-3'  color='failure'>Submit</Button>
+        <Button type='submit' className='text-center w-full mx-5 rounded-md my-3'  color='failure'>{submit ? <Spinner/> : "Submit"}</Button>
       </div>
       </form>
     </div>
