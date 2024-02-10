@@ -5,7 +5,6 @@ import Image from 'next/image';
 
 let count: any = 0;
 function Slider({ title, breakFast }: {title:any,breakFast:any}) {
-  console.log("breakfast 0",breakFast)
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const slideRef = useRef<HTMLDivElement>(null);

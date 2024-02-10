@@ -9,6 +9,7 @@ import WhyChoseUs from "@/components/WhyChoseUs";
 import Slider from "@/components/Slider";
 import { breakFast, lunch , dinner } from "@/utils/constantImages";
 import FAQ from "@/components/FAQ";
+import Feedback from "@/components/Feedback";
 
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
       <Introduction/>
       <HowItWorks/>
       <WhyChoseUs />
+      <Feedback/>
       <Footer />
     </main>
   );
